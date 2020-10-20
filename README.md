@@ -1,7 +1,7 @@
 # Happy---NLW
 
 
-Para inicir de um:
+<b>Para inicir de um:</b>
 
 
 npm install no terminal

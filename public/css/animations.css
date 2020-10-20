@@ -1,0 +1,47 @@
+.animate-up {
+    animation: up 300ms backwards;
+  }
+@keyframes up 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-right 
+{
+    animation: right 300ms ;
+}
+@keyframes right 
+{
+    from
+    {
+        transform: translateX(-100%);
+    }
+    to
+    {
+        transform: translateX(0);
+    }
+}
+
+.animate-appear
+{
+    animation: appear 300ms backwards;
+}
+@keyframes appear
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
